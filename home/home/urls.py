@@ -21,5 +21,5 @@ from automation import views
 urlpatterns = [
     path('', views.index),
     path('admin/', admin.site.urls),
-    # path('automation/', include('automation.urls')),
+    path('automation/', include('automation.urls')),
 ]
